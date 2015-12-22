@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Weather</title>
+   <meta charset="UTF-8">
+
+   <!-- STYLESHEET LINKS HERE -->
+
+   <link rel="stylesheet" href="css/index.css">
+
+   <!-- FONT LINKS HERE -->
+
+   <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+</head>
+<body>
+   <header>
+    <div class="title">
+        <h1>Weather Sketch</h1>
+    </div>
+    <div class="search">
+        <form name="Location" action="#" method="get">
+            <input type="text" placeholder="Search city">
+            <button type="submit">Search</button>
+        </form>
+    </div>
+</header>
+
+<nav class="navigation">
+    <ul>
+        <li class="active"><a href="index.html">Now</a></li>
+        <li><a href="5days.html">5 Days</a></li>
+        <li><a href="about.html">About The Website</a></li>
+    </ul>
+</nav>
+
+<main>
+    <div id="now">
+        <div class="leftdata">
+            <p id="loc"></p>
+        </div>
+        <div class="rightdata">
+            <div class="upperright">
+            <img id="icon" alt="">
+                <p id="currenttemp"></p>
+            </div>
+            <div class="lowerright">
+                <ul>
+                    <li id="now-description"></li>
+                    <li id="now-wind"></li>
+                    <li id="now-humidity"></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</main>
+
+<!-- SCRIPTS HERE! -->
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/moment.js/2.0.0/moment.min.js"></script>
+<script type="text/javascript" src="scripts/index.js"></script>
+
+</body>
+</html>

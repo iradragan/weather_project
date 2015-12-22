@@ -1,0 +1,111 @@
+body {
+	max-width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	padding: 0;
+	background: url(../images/forest.jpg);
+	background-repeat: no-repeat;
+}
+
+.title {
+	display: block;
+	width: 680px;
+	height: 10%;
+	margin: 0 auto;
+	padding: 5px;
+	text-align: center;
+}
+
+.title h1 {
+	font-family:'Lato', sans-serif;
+	font-size: 45px;
+	letter-spacing: 3px;
+}
+
+.search {
+	display: block;
+	width: 575px;
+	height: 35px;
+	margin: 0 auto;
+	padding: 15px;
+	text-align: center;
+}
+
+nav.navigation ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+
+.navigation li {
+	float: left;
+}
+
+.navigation li a {
+	display: block;
+	padding: 25px 30px;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	font-family:'Lato', sans-serif;
+	font-size: 20px;
+}
+
+li a:hover {
+	background-color: #111;
+}
+
+.active {
+ 	background-color: #111;
+}
+
+#alldays {
+	display: block;
+	width: 60%;
+	margin: 3% 10% 5% 3%;
+	background-color: white;
+	opacity: 0.7;
+	border-radius: 15px;
+}
+
+#alldays .item {
+	display: inline-block;
+	width: 17%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	padding: 1%;
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+}
+
+#alldays h2 {
+	padding-bottom: 4%;font-size: 27px;
+	text-decoration: underline;
+}
+
+#alldays img, #alldays ul {
+	padding: 2%;
+}
+
+#alldays ul {
+	list-style-type: none;
+	text-align: left;
+	font-size: 17px;
+}
+#alldays li:first-child:first-letter {
+	text-transform: uppercase;
+}
+#alldays li {
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
